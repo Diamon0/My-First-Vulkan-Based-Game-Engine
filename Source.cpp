@@ -55,9 +55,9 @@ const std::vector<const char*> deviceExtensions = {
 	const bool enableValidationLayers = false;
 #else
 	const bool enableValidationLayers = true;
-	#include <imgui.h>
-	#include <imgui_impl_glfw.h>
-	#include <imgui_impl_vulkan.h>
+	#include <imgui/imgui.h>
+	#include <imgui/backends/imgui_impl_glfw.h>
+	#include <imgui/backends/imgui_impl_vulkan.h>
 #endif
 
 static VkResult CreateDebugUtilsMessengerEXT(VkInstance instance, const VkDebugUtilsMessengerCreateInfoEXT* pCreateInfo, const VkAllocationCallbacks* pAllocator, VkDebugUtilsMessengerEXT* pDebugMessenger) {
