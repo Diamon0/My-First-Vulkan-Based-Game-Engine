@@ -8,6 +8,7 @@ While I could simply use an existing game engine (UE5, Godot, GameMaker, etc...)
 
 # TODOs:
 
++ Refine the rateSuitability function: Right now it's extremely basic and only made for development.
 + Separate Files: Right now everything is in a single, all-powerful file and I don't enjoy it.
 + Organize The Code: Ties in to the previous point.
 + Make my own Assets: Like, I am still using the assets I was given, except for the icon which I have only used for the visual studio setup project (I make .msi files for my friends to test on their different Windows machines).
